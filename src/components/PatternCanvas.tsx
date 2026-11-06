@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 
 import { drawBeadScene, drawPatternScene } from '@/render/patternRenderer';
-import { computeViewportGeometry, type ViewportGeometry } from '@/render/viewport';
+import { computeViewportGeometry, zoomAroundPoint, type ViewportGeometry } from '@/render/viewport';
 import type { PatternDocument } from '@/types';
 
 interface PatternCanvasProps {
@@ -14,6 +14,7 @@ export function PatternCanvas({ document, view, onZoomChange }: PatternCanvasPro
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const frameRef = useRef<HTMLDivElement>(null);
   const [zoom, setZoom] = useState(1);
+  const [pan, setPan] = useState({ x: 0, y: 0 });
   const [geometry, setGeometry] = useState<ViewportGeometry | null>(null);
 
   useEffect(() => {
@@ -27,6 +28,8 @@ export function PatternCanvas({ document, view, onZoomChange }: PatternCanvasPro
           { width: Math.max(1, frame.clientWidth), height: Math.max(1, frame.clientHeight) },
           { top: 38, right: 24, bottom: 24, left: 38 },
           zoom,
+          pan.x,
+          pan.y,
         ),
       );
     };
@@ -34,7 +37,36 @@ export function PatternCanvas({ document, view, onZoomChange }: PatternCanvasPro
     const observer = new ResizeObserver(resize);
     observer.observe(frame);
     return () => observer.disconnect();
-  }, [document, zoom]);
+  }, [document, pan.x, pan.y, zoom]);
+
+  useEffect(() => {
+    const frame = frameRef.current;
+    if (frame === null) return;
+
+    const handleWheel = (event: WheelEvent) => {
+      event.preventDefault();
+      const rect = frame.getBoundingClientRect();
+      const point = { x: event.clientX - rect.left, y: event.clientY - rect.top };
+      const nextZoom = Math.min(8, Math.max(0.5, zoom + (event.deltaY > 0 ? -0.1 : 0.1)));
+      const result = zoomAroundPoint(
+        document?.pattern.width ?? 64,
+        document?.pattern.height ?? 64,
+        { width: Math.max(1, frame.clientWidth), height: Math.max(1, frame.clientHeight) },
+        { top: 38, right: 24, bottom: 24, left: 38 },
+        zoom,
+        pan.x,
+        pan.y,
+        point,
+        nextZoom,
+      );
+      setZoom(result.zoom);
+      setPan({ x: result.panX, y: result.panY });
+      onZoomChange?.(result.zoom);
+    };
+
+    frame.addEventListener('wheel', handleWheel, { passive: false });
+    return () => frame.removeEventListener('wheel', handleWheel);
+  }, [document, onZoomChange, pan.x, pan.y, zoom]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -60,16 +92,7 @@ export function PatternCanvas({ document, view, onZoomChange }: PatternCanvasPro
   }, [document, geometry, view]);
 
   return (
-    <div
-      ref={frameRef}
-      className="pattern-canvas-wrap"
-      onWheel={(event) => {
-        event.preventDefault();
-        const next = Math.min(8, Math.max(0.5, zoom + (event.deltaY > 0 ? -0.1 : 0.1)));
-        setZoom(next);
-        onZoomChange?.(next);
-      }}
-    >
+    <div ref={frameRef} className="pattern-canvas-wrap">
       <canvas ref={canvasRef} className="pattern-canvas" aria-label="拼豆图纸预览" />
       {document === null && (
         <div className="canvas-empty">

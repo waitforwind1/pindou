@@ -6,7 +6,7 @@
 | 更新日期 | 2026-11-06 |
 | 需求基线 | `docs/requirements.md` v1.1、`docs/acceptance.md` v1.1、`docs/feature-priority.md` v1.1 |
 | 技术基线 | `docs/architecture.md`、`docs/data-model.md`、`docs/algorithm-design.md`、ADR-0001 至 ADR-0011 |
-| 当前门禁 | 工作台、真实生成链路和 PNG 下载已接通；待完成完整 P0 黑盒验收 |
+| 当前门禁 | 工作台、真实生成链路、PNG/CSV/分板导出和滚轮交互已接通；自动化门禁通过，人工独立查看证据仍单列为未验证 |
 
 ## 1. 状态与完成口径
 
@@ -26,7 +26,7 @@
 - [x] 统一核心类型契约建立，字段与 `docs/data-model.md` 对齐。
 - [x] 领域核心首批纯函数建立：sRGB→CIELAB、CIE76、alpha 规则、contain、最近邻坐标与像素读取。
 - [x] 项目级 Skills 建立并通过官方 `quick_validate.py` 校验。
-- [~] P0 业务闭环：上传、色盘、生成、网格渲染、统计和 PNG 导出已接通，完整验收仍在进行。
+- [~] P0 业务闭环：上传、色盘、生成、网格渲染、统计和 PNG 导出已接通；自动化验收完成，完整人工黑盒证据包仍单列。
 
 ### M1：P0 数据门禁
 
@@ -98,7 +98,7 @@ P1 只允许在 P0 全绿后进入。若 52 小时 P0 门禁未通过，停止�
 | 2026-11-06 | `npm run build` | 通过 | Vite 8 生产构建成功 |
 | 2026-11-06 | `npm run check` | 通过 | typecheck、lint、unit test、build 连续执行成功 |
 | 2026-11-06 | `npm run format:check` | 通过 | Prettier 全量检查通过 |
-| 2026-11-06 | `npm run test:e2e` | 通过 | Chrome、Edge 各 3 个测试通过：工作台空状态、真实上传生成与 PNG 下载、浏览器图片解码（PNG/JPEG/WebP、透明比例、损坏文件、像素上限） |
+| 2026-11-06 | `npm run test:e2e` | 通过 | Chrome、Edge 各 4 个测试通过：工作台空状态、真实上传生成与 PNG 下载、浏览器图片解码、画布内滚轮缩放且页面不滚动 |
 | 2026-11-06 | `npm test` | 通过 | 13 个测试文件，72 项单元/集成测试；新增 70×65/29×29 分板不丢格与材料 CSV 统计一致性 |
 | 2026-11-06 | `npm audit --omit=dev` | 通过 | 生产依赖 0 个已知漏洞 |
 | 2026-11-06 | 三个 Skill `quick_validate.py` | 通过 | 三个 `Skill is valid!` |
@@ -133,3 +133,8 @@ P1 只允许在 P0 全绿后进入。若 52 小时 P0 门禁未通过，停止�
 3. 继续补 P0 错误恢复与预览/PNG 逐格一致性证据，完成 AC-15 至 AC-23 的完整归档。
 
 每次完成任务后更新本表状态，并追加实际执行的命令与证据位置。
+
+## 8. 交互修复验证
+
+- [x] 图纸预览区域使用非 passive 原生 `wheel` 监听，仅在区域内调用 `preventDefault()`；缩放以鼠标指针位置为锚点。
+- [x] `npm run test:e2e`：Chrome、Edge 各验证画布内滚轮缩放且页面 `scrollY` 不变，共 8 项 E2E 通过。

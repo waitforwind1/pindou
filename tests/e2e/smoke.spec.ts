@@ -38,3 +38,22 @@ test('uploads a real image and generates a pattern from the core pipeline', asyn
   const download = await downloadPromise;
   expect(download.suggestedFilename()).toMatch(/beadcraft-64x64-hama-midi-solid\.png/);
 });
+
+test('keeps wheel zoom inside the pattern canvas', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('input[type=file]').setInputFiles({
+    name: 'fixture.png',
+    mimeType: 'image/png',
+    buffer: onePixelPng,
+  });
+  await page.getByRole('button', { name: '生成拼豆图纸' }).click();
+  const canvasFrame = page.locator('.pattern-canvas-wrap');
+  await expect(canvasFrame).toBeVisible();
+  const box = await canvasFrame.boundingBox();
+  if (box === null) throw new Error('Pattern canvas frame is not visible.');
+  const initialScrollY = await page.evaluate(() => window.scrollY);
+  await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
+  await page.mouse.wheel(0, -100);
+  await expect(page.locator('.canvas-toolbar span')).toHaveText('110%');
+  expect(await page.evaluate(() => window.scrollY)).toBe(initialScrollY);
+});
