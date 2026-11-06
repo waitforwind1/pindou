@@ -1,0 +1,490 @@
+{
+  "schemaVersion": 1,
+  "paletteId": "hama-midi-solid",
+  "brand": "HAMA",
+  "series": "MIDI",
+  "variant": "SOLID",
+  "version": "2026",
+  "officialPageUrl": "https://hama.dk/en/pages/colour-chart",
+  "documentUrl": "https://cdn.shopify.com/s/files/1/0726/3771/0492/files/Midi_-_Colour_palette.pdf?v=1777369953",
+  "documentSha256": "6AC736AA546ADEC53DF5F82AEE900F190A79530FF8F2C796723F430AB40FA6F4",
+  "numberChartUrl": "https://cdn.shopify.com/s/files/1/0726/3771/0492/files/colour-chart-number.pdf?v=1777215620",
+  "numberChartSha256": "9AA7344AE09710CD15127EF1FC5ED217077344E2E8797BC69C084D9FF63C82FA",
+  "accessedAt": "2026-11-06",
+  "sourcePage": 1,
+  "layout": "8 rows; row counts 9,9,8,8,9,7,9,8 = 67 Solid colours",
+  "selectionRule": "All entries on the Solid page of the official English Midi colour palette. Special-effect colours on page 2 are excluded.",
+  "renderDpi": 300,
+  "samplingMethod": "Official English Midi colour-palette PDF page 1 rendered with Poppler pdftoppm at 300 dpi. For each imaged bead swatch, sample the interior rectangle x = code-left + 2..39 pt and y = code-baseline + 12..38 pt, then take the channel-wise median of rendered pixels and round to 8-bit RGB. This avoids the label, border, and most specular highlights. Values are approximate photo-derived reference colours, not official RGB standards.",
+  "colors": [
+    {
+      "code": "108",
+      "officialName": "Aubergine",
+      "row": 1,
+      "column": 1,
+      "referenceHex": "#260E2C"
+    },
+    {
+      "code": "07",
+      "officialName": "Purple",
+      "row": 1,
+      "column": 2,
+      "referenceHex": "#432B54"
+    },
+    {
+      "code": "45",
+      "officialName": "Pastel purple",
+      "row": 1,
+      "column": 3,
+      "referenceHex": "#6B5093"
+    },
+    {
+      "code": "96",
+      "officialName": "Pastel lilac",
+      "row": 1,
+      "column": 4,
+      "referenceHex": "#A78BB8"
+    },
+    {
+      "code": "48",
+      "officialName": "Pastel pink",
+      "row": 1,
+      "column": 5,
+      "referenceHex": "#CB5391"
+    },
+    {
+      "code": "95",
+      "officialName": "Pastel rose",
+      "row": 1,
+      "column": 6,
+      "referenceHex": "#E28EA5"
+    },
+    {
+      "code": "121",
+      "officialName": "Fuchsia pink",
+      "row": 1,
+      "column": 7,
+      "referenceHex": "#DE3B67"
+    },
+    {
+      "code": "29",
+      "officialName": "Claret",
+      "row": 1,
+      "column": 8,
+      "referenceHex": "#991F3D"
+    },
+    {
+      "code": "82",
+      "officialName": "Plum",
+      "row": 1,
+      "column": 9,
+      "referenceHex": "#721A3F"
+    },
+    {
+      "code": "116",
+      "officialName": "Midnight blue",
+      "row": 2,
+      "column": 1,
+      "referenceHex": "#040F21"
+    },
+    {
+      "code": "08",
+      "officialName": "Blue",
+      "row": 2,
+      "column": 2,
+      "referenceHex": "#2A346F"
+    },
+    {
+      "code": "09",
+      "officialName": "Light blue",
+      "row": 2,
+      "column": 3,
+      "referenceHex": "#24508F"
+    },
+    {
+      "code": "119",
+      "officialName": "Sky blue",
+      "row": 2,
+      "column": 4,
+      "referenceHex": "#065E93"
+    },
+    {
+      "code": "46",
+      "officialName": "Pastel blue",
+      "row": 2,
+      "column": 5,
+      "referenceHex": "#18AAD5"
+    },
+    {
+      "code": "97",
+      "officialName": "Pastel ice blue",
+      "row": 2,
+      "column": 6,
+      "referenceHex": "#7EBDE7"
+    },
+    {
+      "code": "120",
+      "officialName": "Dusty blue",
+      "row": 2,
+      "column": 7,
+      "referenceHex": "#8BB6C8"
+    },
+    {
+      "code": "106",
+      "officialName": "Light lavender",
+      "row": 2,
+      "column": 8,
+      "referenceHex": "#8C85AC"
+    },
+    {
+      "code": "107",
+      "officialName": "Lavender",
+      "row": 2,
+      "column": 9,
+      "referenceHex": "#526294"
+    },
+    {
+      "code": "83",
+      "officialName": "Petrol blue",
+      "row": 3,
+      "column": 1,
+      "referenceHex": "#035D85"
+    },
+    {
+      "code": "31",
+      "officialName": "Turquoise",
+      "row": 3,
+      "column": 2,
+      "referenceHex": "#207885"
+    },
+    {
+      "code": "49",
+      "officialName": "Azure",
+      "row": 3,
+      "column": 3,
+      "referenceHex": "#0E919F"
+    },
+    {
+      "code": "113",
+      "officialName": "Aqua",
+      "row": 3,
+      "column": 4,
+      "referenceHex": "#4E9D7D"
+    },
+    {
+      "code": "98",
+      "officialName": "Pastel mint",
+      "row": 3,
+      "column": 5,
+      "referenceHex": "#8AC99F"
+    },
+    {
+      "code": "11",
+      "officialName": "Light green",
+      "row": 3,
+      "column": 6,
+      "referenceHex": "#0DA273"
+    },
+    {
+      "code": "115",
+      "officialName": "Bright green",
+      "row": 3,
+      "column": 7,
+      "referenceHex": "#569E40"
+    },
+    {
+      "code": "10",
+      "officialName": "Green",
+      "row": 3,
+      "column": 8,
+      "referenceHex": "#0C5433"
+    },
+    {
+      "code": "28",
+      "officialName": "Dark green",
+      "row": 4,
+      "column": 1,
+      "referenceHex": "#3E4C3E"
+    },
+    {
+      "code": "102",
+      "officialName": "Forest green",
+      "row": 4,
+      "column": 2,
+      "referenceHex": "#2C5028"
+    },
+    {
+      "code": "84",
+      "officialName": "Olive green",
+      "row": 4,
+      "column": 3,
+      "referenceHex": "#58612A"
+    },
+    {
+      "code": "110",
+      "officialName": "Matcha",
+      "row": 4,
+      "column": 4,
+      "referenceHex": "#95924A"
+    },
+    {
+      "code": "101",
+      "officialName": "Eucalyptus",
+      "row": 4,
+      "column": 5,
+      "referenceHex": "#688362"
+    },
+    {
+      "code": "47",
+      "officialName": "Pastel green",
+      "row": 4,
+      "column": 6,
+      "referenceHex": "#71B569"
+    },
+    {
+      "code": "104",
+      "officialName": "Lime",
+      "row": 4,
+      "column": 7,
+      "referenceHex": "#948F03"
+    },
+    {
+      "code": "122",
+      "officialName": "Mustard",
+      "row": 4,
+      "column": 8,
+      "referenceHex": "#AE7313"
+    },
+    {
+      "code": "60",
+      "officialName": "Teddybear brown",
+      "row": 5,
+      "column": 1,
+      "referenceHex": "#D26328"
+    },
+    {
+      "code": "03",
+      "officialName": "Yellow",
+      "row": 5,
+      "column": 2,
+      "referenceHex": "#F8B703"
+    },
+    {
+      "code": "103",
+      "officialName": "Light yellow",
+      "row": 5,
+      "column": 3,
+      "referenceHex": "#D7A51E"
+    },
+    {
+      "code": "43",
+      "officialName": "Pastel yellow",
+      "row": 5,
+      "column": 4,
+      "referenceHex": "#F2DE38"
+    },
+    {
+      "code": "02",
+      "officialName": "Cream",
+      "row": 5,
+      "column": 5,
+      "referenceHex": "#E9D893"
+    },
+    {
+      "code": "78",
+      "officialName": "Light peach",
+      "row": 5,
+      "column": 6,
+      "referenceHex": "#F4B586"
+    },
+    {
+      "code": "105",
+      "officialName": "Light apricot",
+      "row": 5,
+      "column": 7,
+      "referenceHex": "#C25B1B"
+    },
+    {
+      "code": "79",
+      "officialName": "Apricot",
+      "row": 5,
+      "column": 8,
+      "referenceHex": "#ED7328"
+    },
+    {
+      "code": "04",
+      "officialName": "Orange",
+      "row": 5,
+      "column": 9,
+      "referenceHex": "#E02718"
+    },
+    {
+      "code": "30",
+      "officialName": "Burgundy",
+      "row": 6,
+      "column": 1,
+      "referenceHex": "#50292C"
+    },
+    {
+      "code": "118",
+      "officialName": "Maroon red",
+      "row": 6,
+      "column": 2,
+      "referenceHex": "#6E021F"
+    },
+    {
+      "code": "22",
+      "officialName": "Dark red",
+      "row": 6,
+      "column": 3,
+      "referenceHex": "#A21B30"
+    },
+    {
+      "code": "05",
+      "officialName": "Red",
+      "row": 6,
+      "column": 4,
+      "referenceHex": "#B81923"
+    },
+    {
+      "code": "114",
+      "officialName": "Cherry red",
+      "row": 6,
+      "column": 5,
+      "referenceHex": "#A51C22"
+    },
+    {
+      "code": "44",
+      "officialName": "Pastel red",
+      "row": 6,
+      "column": 6,
+      "referenceHex": "#D45655"
+    },
+    {
+      "code": "06",
+      "officialName": "Pink",
+      "row": 6,
+      "column": 7,
+      "referenceHex": "#E26375"
+    },
+    {
+      "code": "12",
+      "officialName": "Brown",
+      "row": 7,
+      "column": 1,
+      "referenceHex": "#392B26"
+    },
+    {
+      "code": "76",
+      "officialName": "Nougat",
+      "row": 7,
+      "column": 2,
+      "referenceHex": "#66371B"
+    },
+    {
+      "code": "75",
+      "officialName": "Light nougat",
+      "row": 7,
+      "column": 3,
+      "referenceHex": "#886347"
+    },
+    {
+      "code": "27",
+      "officialName": "Beige",
+      "row": 7,
+      "column": 4,
+      "referenceHex": "#C18665"
+    },
+    {
+      "code": "21",
+      "officialName": "Light brown",
+      "row": 7,
+      "column": 5,
+      "referenceHex": "#874C36"
+    },
+    {
+      "code": "20",
+      "officialName": "Reddish brown",
+      "row": 7,
+      "column": 6,
+      "referenceHex": "#712820"
+    },
+    {
+      "code": "26",
+      "officialName": "Matt rose",
+      "row": 7,
+      "column": 7,
+      "referenceHex": "#D3715A"
+    },
+    {
+      "code": "112",
+      "officialName": "Blush",
+      "row": 7,
+      "column": 8,
+      "referenceHex": "#A86F63"
+    },
+    {
+      "code": "111",
+      "officialName": "Dark blush",
+      "row": 7,
+      "column": 9,
+      "referenceHex": "#8F544D"
+    },
+    {
+      "code": "18",
+      "officialName": "Black",
+      "row": 8,
+      "column": 1,
+      "referenceHex": "#2E282A"
+    },
+    {
+      "code": "71",
+      "officialName": "Dark grey",
+      "row": 8,
+      "column": 2,
+      "referenceHex": "#333333"
+    },
+    {
+      "code": "17",
+      "officialName": "Grey",
+      "row": 8,
+      "column": 3,
+      "referenceHex": "#6A6969"
+    },
+    {
+      "code": "70",
+      "officialName": "Light grey",
+      "row": 8,
+      "column": 4,
+      "referenceHex": "#8C929A"
+    },
+    {
+      "code": "01",
+      "officialName": "White",
+      "row": 8,
+      "column": 5,
+      "referenceHex": "#E1E1E1"
+    },
+    {
+      "code": "77",
+      "officialName": "Cloudy white",
+      "row": 8,
+      "column": 6,
+      "referenceHex": "#D1C5B6"
+    },
+    {
+      "code": "109",
+      "officialName": "Cloudy grey",
+      "row": 8,
+      "column": 7,
+      "referenceHex": "#A3917A"
+    },
+    {
+      "code": "117",
+      "officialName": "Taupe Grey",
+      "row": 8,
+      "column": 8,
+      "referenceHex": "#3A352D"
+    }
+  ]
+}

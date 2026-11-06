@@ -1,0 +1,3 @@
+interface:
+  display_name: "Delivery Check"
+  short_description: "Run release gates and record evidence"

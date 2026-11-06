@@ -1,0 +1,762 @@
+{
+  "ref": {
+    "id": "hama-midi-solid",
+    "brand": "HAMA",
+    "series": "MIDI",
+    "variant": "SOLID",
+    "version": "2026",
+    "checksum": "1bdbf969e21a266269f4d983c9203af62889b3fc77b528f164daa72b3e6b66f2"
+  },
+  "colors": [
+    {
+      "code": "108",
+      "officialName": "Aubergine",
+      "displayRgb": [38, 14, 44],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 1,
+        "column": 1
+      }
+    },
+    {
+      "code": "07",
+      "officialName": "Purple",
+      "displayRgb": [67, 43, 84],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 1,
+        "column": 2
+      }
+    },
+    {
+      "code": "45",
+      "officialName": "Pastel purple",
+      "displayRgb": [107, 80, 147],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 1,
+        "column": 3
+      }
+    },
+    {
+      "code": "96",
+      "officialName": "Pastel lilac",
+      "displayRgb": [167, 139, 184],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 1,
+        "column": 4
+      }
+    },
+    {
+      "code": "48",
+      "officialName": "Pastel pink",
+      "displayRgb": [203, 83, 145],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 1,
+        "column": 5
+      }
+    },
+    {
+      "code": "95",
+      "officialName": "Pastel rose",
+      "displayRgb": [226, 142, 165],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 1,
+        "column": 6
+      }
+    },
+    {
+      "code": "121",
+      "officialName": "Fuchsia pink",
+      "displayRgb": [222, 59, 103],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 1,
+        "column": 7
+      }
+    },
+    {
+      "code": "29",
+      "officialName": "Claret",
+      "displayRgb": [153, 31, 61],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 1,
+        "column": 8
+      }
+    },
+    {
+      "code": "82",
+      "officialName": "Plum",
+      "displayRgb": [114, 26, 63],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 1,
+        "column": 9
+      }
+    },
+    {
+      "code": "116",
+      "officialName": "Midnight blue",
+      "displayRgb": [4, 15, 33],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 2,
+        "column": 1
+      }
+    },
+    {
+      "code": "08",
+      "officialName": "Blue",
+      "displayRgb": [42, 52, 111],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 2,
+        "column": 2
+      }
+    },
+    {
+      "code": "09",
+      "officialName": "Light blue",
+      "displayRgb": [36, 80, 143],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 2,
+        "column": 3
+      }
+    },
+    {
+      "code": "119",
+      "officialName": "Sky blue",
+      "displayRgb": [6, 94, 147],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 2,
+        "column": 4
+      }
+    },
+    {
+      "code": "46",
+      "officialName": "Pastel blue",
+      "displayRgb": [24, 170, 213],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 2,
+        "column": 5
+      }
+    },
+    {
+      "code": "97",
+      "officialName": "Pastel ice blue",
+      "displayRgb": [126, 189, 231],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 2,
+        "column": 6
+      }
+    },
+    {
+      "code": "120",
+      "officialName": "Dusty blue",
+      "displayRgb": [139, 182, 200],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 2,
+        "column": 7
+      }
+    },
+    {
+      "code": "106",
+      "officialName": "Light lavender",
+      "displayRgb": [140, 133, 172],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 2,
+        "column": 8
+      }
+    },
+    {
+      "code": "107",
+      "officialName": "Lavender",
+      "displayRgb": [82, 98, 148],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 2,
+        "column": 9
+      }
+    },
+    {
+      "code": "83",
+      "officialName": "Petrol blue",
+      "displayRgb": [3, 93, 133],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 3,
+        "column": 1
+      }
+    },
+    {
+      "code": "31",
+      "officialName": "Turquoise",
+      "displayRgb": [32, 120, 133],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 3,
+        "column": 2
+      }
+    },
+    {
+      "code": "49",
+      "officialName": "Azure",
+      "displayRgb": [14, 145, 159],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 3,
+        "column": 3
+      }
+    },
+    {
+      "code": "113",
+      "officialName": "Aqua",
+      "displayRgb": [78, 157, 125],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 3,
+        "column": 4
+      }
+    },
+    {
+      "code": "98",
+      "officialName": "Pastel mint",
+      "displayRgb": [138, 201, 159],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 3,
+        "column": 5
+      }
+    },
+    {
+      "code": "11",
+      "officialName": "Light green",
+      "displayRgb": [13, 162, 115],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 3,
+        "column": 6
+      }
+    },
+    {
+      "code": "115",
+      "officialName": "Bright green",
+      "displayRgb": [86, 158, 64],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 3,
+        "column": 7
+      }
+    },
+    {
+      "code": "10",
+      "officialName": "Green",
+      "displayRgb": [12, 84, 51],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 3,
+        "column": 8
+      }
+    },
+    {
+      "code": "28",
+      "officialName": "Dark green",
+      "displayRgb": [62, 76, 62],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 4,
+        "column": 1
+      }
+    },
+    {
+      "code": "102",
+      "officialName": "Forest green",
+      "displayRgb": [44, 80, 40],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 4,
+        "column": 2
+      }
+    },
+    {
+      "code": "84",
+      "officialName": "Olive green",
+      "displayRgb": [88, 97, 42],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 4,
+        "column": 3
+      }
+    },
+    {
+      "code": "110",
+      "officialName": "Matcha",
+      "displayRgb": [149, 146, 74],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 4,
+        "column": 4
+      }
+    },
+    {
+      "code": "101",
+      "officialName": "Eucalyptus",
+      "displayRgb": [104, 131, 98],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 4,
+        "column": 5
+      }
+    },
+    {
+      "code": "47",
+      "officialName": "Pastel green",
+      "displayRgb": [113, 181, 105],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 4,
+        "column": 6
+      }
+    },
+    {
+      "code": "104",
+      "officialName": "Lime",
+      "displayRgb": [148, 143, 3],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 4,
+        "column": 7
+      }
+    },
+    {
+      "code": "122",
+      "officialName": "Mustard",
+      "displayRgb": [174, 115, 19],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 4,
+        "column": 8
+      }
+    },
+    {
+      "code": "60",
+      "officialName": "Teddybear brown",
+      "displayRgb": [210, 99, 40],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 5,
+        "column": 1
+      }
+    },
+    {
+      "code": "03",
+      "officialName": "Yellow",
+      "displayRgb": [248, 183, 3],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "code": "103",
+      "officialName": "Light yellow",
+      "displayRgb": [215, 165, 30],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 5,
+        "column": 3
+      }
+    },
+    {
+      "code": "43",
+      "officialName": "Pastel yellow",
+      "displayRgb": [242, 222, 56],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 5,
+        "column": 4
+      }
+    },
+    {
+      "code": "02",
+      "officialName": "Cream",
+      "displayRgb": [233, 216, 147],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 5,
+        "column": 5
+      }
+    },
+    {
+      "code": "78",
+      "officialName": "Light peach",
+      "displayRgb": [244, 181, 134],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 5,
+        "column": 6
+      }
+    },
+    {
+      "code": "105",
+      "officialName": "Light apricot",
+      "displayRgb": [194, 91, 27],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 5,
+        "column": 7
+      }
+    },
+    {
+      "code": "79",
+      "officialName": "Apricot",
+      "displayRgb": [237, 115, 40],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 5,
+        "column": 8
+      }
+    },
+    {
+      "code": "04",
+      "officialName": "Orange",
+      "displayRgb": [224, 39, 24],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 5,
+        "column": 9
+      }
+    },
+    {
+      "code": "30",
+      "officialName": "Burgundy",
+      "displayRgb": [80, 41, 44],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 6,
+        "column": 1
+      }
+    },
+    {
+      "code": "118",
+      "officialName": "Maroon red",
+      "displayRgb": [110, 2, 31],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 6,
+        "column": 2
+      }
+    },
+    {
+      "code": "22",
+      "officialName": "Dark red",
+      "displayRgb": [162, 27, 48],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 6,
+        "column": 3
+      }
+    },
+    {
+      "code": "05",
+      "officialName": "Red",
+      "displayRgb": [184, 25, 35],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 6,
+        "column": 4
+      }
+    },
+    {
+      "code": "114",
+      "officialName": "Cherry red",
+      "displayRgb": [165, 28, 34],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 6,
+        "column": 5
+      }
+    },
+    {
+      "code": "44",
+      "officialName": "Pastel red",
+      "displayRgb": [212, 86, 85],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 6,
+        "column": 6
+      }
+    },
+    {
+      "code": "06",
+      "officialName": "Pink",
+      "displayRgb": [226, 99, 117],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 6,
+        "column": 7
+      }
+    },
+    {
+      "code": "12",
+      "officialName": "Brown",
+      "displayRgb": [57, 43, 38],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 7,
+        "column": 1
+      }
+    },
+    {
+      "code": "76",
+      "officialName": "Nougat",
+      "displayRgb": [102, 55, 27],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "code": "75",
+      "officialName": "Light nougat",
+      "displayRgb": [136, 99, 71],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 7,
+        "column": 3
+      }
+    },
+    {
+      "code": "27",
+      "officialName": "Beige",
+      "displayRgb": [193, 134, 101],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 7,
+        "column": 4
+      }
+    },
+    {
+      "code": "21",
+      "officialName": "Light brown",
+      "displayRgb": [135, 76, 54],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 7,
+        "column": 5
+      }
+    },
+    {
+      "code": "20",
+      "officialName": "Reddish brown",
+      "displayRgb": [113, 40, 32],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 7,
+        "column": 6
+      }
+    },
+    {
+      "code": "26",
+      "officialName": "Matt rose",
+      "displayRgb": [211, 113, 90],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 7,
+        "column": 7
+      }
+    },
+    {
+      "code": "112",
+      "officialName": "Blush",
+      "displayRgb": [168, 111, 99],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 7,
+        "column": 8
+      }
+    },
+    {
+      "code": "111",
+      "officialName": "Dark blush",
+      "displayRgb": [143, 84, 77],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 7,
+        "column": 9
+      }
+    },
+    {
+      "code": "18",
+      "officialName": "Black",
+      "displayRgb": [46, 40, 42],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 8,
+        "column": 1
+      }
+    },
+    {
+      "code": "71",
+      "officialName": "Dark grey",
+      "displayRgb": [51, 51, 51],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 8,
+        "column": 2
+      }
+    },
+    {
+      "code": "17",
+      "officialName": "Grey",
+      "displayRgb": [106, 105, 105],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 8,
+        "column": 3
+      }
+    },
+    {
+      "code": "70",
+      "officialName": "Light grey",
+      "displayRgb": [140, 146, 154],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 8,
+        "column": 4
+      }
+    },
+    {
+      "code": "01",
+      "officialName": "White",
+      "displayRgb": [225, 225, 225],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 8,
+        "column": 5
+      }
+    },
+    {
+      "code": "77",
+      "officialName": "Cloudy white",
+      "displayRgb": [209, 197, 182],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 8,
+        "column": 6
+      }
+    },
+    {
+      "code": "109",
+      "officialName": "Cloudy grey",
+      "displayRgb": [163, 145, 122],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "code": "117",
+      "officialName": "Taupe Grey",
+      "displayRgb": [58, 53, 45],
+      "source": {
+        "documentId": "hama-midi-colour-palette-2026-en",
+        "page": 1,
+        "row": 8,
+        "column": 8
+      }
+    }
+  ],
+  "source": {
+    "officialPageUrl": "https://hama.dk/en/pages/colour-chart",
+    "documentUrl": "https://cdn.shopify.com/s/files/1/0726/3771/0492/files/Midi_-_Colour_palette.pdf?v=1777369953",
+    "documentSha256": "6AC736AA546ADEC53DF5F82AEE900F190A79530FF8F2C796723F430AB40FA6F4",
+    "accessedAt": "2026-11-06",
+    "samplingMethod": "Official English Midi colour-palette PDF page 1 rendered with Poppler pdftoppm at 300 dpi. For each imaged bead swatch, sample the interior rectangle x = code-left + 2..39 pt and y = code-baseline + 12..38 pt, then take the channel-wise median of rendered pixels and round to 8-bit RGB. This avoids the label, border, and most specular highlights. Values are approximate photo-derived reference colours, not official RGB standards.",
+    "colorDataSource": "official-chart-derived"
+  },
+  "verification": {
+    "status": "verified",
+    "verifiedAt": "2026-11-06",
+    "notes": "67 solid entries checked against page 1 of the official English Hama 2026 Midi colour palette (rows 1-8). Special-effect colours on page 2 are excluded. RGB values are chart-derived approximations, not official RGB standards."
+  }
+}
